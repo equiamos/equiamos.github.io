@@ -436,6 +436,7 @@ body {
   background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
 }
 
+
 p {
   margin-top: 0;
 }
@@ -465,6 +466,7 @@ header h1 {
   color: #fff;
   letter-spacing: -1px;
 }
+/*! Styles Page header text */
 
 header h2 {
   width: 540px;
@@ -476,12 +478,14 @@ header h2 {
   color: #9ddcff;
   letter-spacing: 0;
 }
+/*! Styles sub-header text */
 
 .inner {
   position: relative;
   width: 940px;
   margin: 0 auto;
 }
+/*! Fixes left-side adjustment of page */
 
 #content-wrapper {
   padding-top: 30px;
@@ -492,6 +496,7 @@ header h2 {
   float: left;
   width: 690px;
 }
+/*! Adjust right-side text margin es. */
 
 #main-content img {
   max-width: 100%;
@@ -526,16 +531,19 @@ a.button {
   line-height: 1.2;
   color: #fff;
 }
+/*! Makes Github link appear as underlined link */
 a.button small {
   display: block;
   font-size: 11px;
 }
+/*! Changes layout of text of Github underlined link */
 header a.button {
   position: absolute;
   top: 0;
   right: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
+/*! Makes github link appear as button with octocat image */
 aside a.button {
   display: block;
   width: 138px;
@@ -544,6 +552,9 @@ aside a.button {
   font-size: 21px;
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
 }
+
+/*!
+THINK BELOW ONLY NEEDED FOR DISPLAYING CODE SNIPPETS CORRECTLY:
 
 code, pre {
   margin-bottom: 30px;
@@ -571,47 +582,49 @@ pre code {
   background-color: #fff;
   border: none;
 }
+*/
+
 
 ul, ol, dl {
   margin-bottom: 20px;
 }
+/*! Sets margin for end of lists*/
 
 
 /* COMMON STYLES */
 
-hr {
+/*hr {
   height: 0;
   margin-top: 1em;
   margin-bottom: 1em;
   border: 0;
   border-top: solid 1px #ddd;
-}
+}*/
 
-table {
+/*table {
   width: 100%;
   border: 1px solid #ebebeb;
-}
+}*/
 
-th {
+/*th {
   font-weight: 500;
-}
+}*/
 
-td {
+/*td {
   font-weight: 300;
   text-align: center;
   border: 1px solid #ebebeb;
-}
+}*/
 
-form {
+/*form {
   padding: 20px;
   background: #f2f2f2;
 
-}
-
+}*/
 
 /* GENERAL ELEMENT TYPE STYLES */
 
-#main-content h1 {
+/*#main-content h1 {
   margin-top: 0;
   margin-bottom: 0;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
@@ -620,16 +633,16 @@ form {
   color: #474747;
   text-indent: 6px;
   letter-spacing: -1px;
-}
+}*/
 
-#main-content h1:before {
+/*#main-content h1:before {
   padding-right: 0.3em;
   margin-left: -0.9em;
   color: #9ddcff;
   content: "/";
-}
+}*/
 
-#main-content h2 {
+/*#main-content h2 {
   margin-bottom: 8px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 22px;
@@ -642,7 +655,7 @@ form {
   margin-left: -1.5em;
   content: "//";
   color: #9ddcff;
-}
+}*/
 
 #main-content h3 {
   margin-top: 24px;
@@ -660,86 +673,11 @@ form {
   content: "///";
   color: #9ddcff;
 }
-
-#main-content h4 {
-  margin-bottom: 8px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 15px;
-  font-weight: bold;
-  color: #474747;
-  text-indent: 3px;
-}
-
-h4:before {
-  padding-right: 0.3em;
-  margin-left: -2.8em;
-  content: "////";
-  color: #9ddcff;
-}
-
-#main-content h5 {
-  margin-bottom: 8px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 14px;
-  color: #474747;
-  text-indent: 3px;
-}
-h5:before {
-  padding-right: 0.3em;
-  margin-left: -3.2em;
-  content: "/////";
-  color: #9ddcff;
-}
-
-#main-content h6 {
-  margin-bottom: 8px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: .8em;
-  color: #474747;
-  text-indent: 3px;
-}
-h6:before {
-  padding-right: 0.3em;
-  margin-left: -3.7em;
-  content: "//////";
-  color: #9ddcff;
-}
-
-p {
-  margin-bottom: 20px;
-}
-
-a {
-  text-decoration: none;
-}
-
-p a {
-  font-weight: 400;
-}
-
-blockquote {
-  padding: 0 0 0 30px;
-  margin-bottom: 20px;
-  font-size: 1.6em;
-  border-left: 10px solid #e9e9e9;
-}
-
-ul {
-  list-style-position: inside;
-  list-style: disc;
-  padding-left: 20px;
-}
-
-ol {
-  list-style-position: inside;
-  list-style: decimal;
-  padding-left: 3px;
-}
-
-<!--ADDING li-->
+/*! Adds /// blue bars */
 
 li {
-  padding-left: 10px;
+  padding-left: 1px;
+  /*!Controls distance from bullet => text*/
 }
 
 #copyright {
@@ -749,146 +687,3 @@ li {
 	text-align: center;
   font-size: 12px;
 }
-
-dl dd {
-  font-style: italic;
-  font-weight: 100;
-}
-
-footer {
-  padding-top: 20px;
-  padding-bottom: 30px;
-  margin-top: 40px;
-  font-size: 13px;
-  color: #aaa;
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
-}
-
-footer a {
-  color: #666;
-}
-footer a:hover {
-  color: #444;
-}
-
-/* MISC */
-.clearfix:after {
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-  content: '.';
-}
-
-.clearfix {display: inline-block;}
-* html .clearfix {height: 1%;}
-.clearfix {display: block;}
-
-/* #Media Queries
-================================================== */
-
-/* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) { }
-
-/* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-  .inner {
-    width: 740px;
-  }
-  header h1, header h2 {
-    width: 340px;
-  }
-  header h1 {
-    font-size: 60px;
-  }
-  header h2 {
-    font-size: 30px;
-  }
-  #main-content {
-    width: 490px;
-  }
-  #main-content h1:before,
-  #main-content h2:before,
-  #main-content h3:before,
-  #main-content h4:before,
-  #main-content h5:before,
-  #main-content h6:before {
-    padding-right: 0;
-    margin-left: 0;
-    content: none;
-  }
-}
-
-/* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {
-  .inner {
-    width: 93%;
-  }
-  header {
-    padding: 20px 0;
-  }
-  header .inner {
-    position: relative;
-  }
-  header h1, header h2 {
-    width: 100%;
-  }
-  header h1 {
-    font-size: 48px;
-  }
-  header h2 {
-    font-size: 24px;
-  }
-  header a.button {
-    position: relative;
-    display: inline-block;
-    width: auto;
-    height: auto;
-    padding: 5px 10px;
-    margin-top: 15px;
-    font-size: 13px;
-    line-height: 1;
-    color: #2879d0;
-    text-align: center;
-    background-color: #9ddcff;
-    background-image: none;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-  }
-  header a.button small {
-    display: inline;
-    font-size: 13px;
-  }
-  #main-content,
-  aside#sidebar {
-    float: none;
-    width: 100% ! important;
-  }
-  aside#sidebar {
-    min-height: 0;
-    padding: 20px 0;
-    margin-top: 20px;
-    background-image: none;
-    border-top: solid 1px #ddd;
-  }
-  aside#sidebar a.button {
-    display: none;
-  }
-  #main-content h1:before,
-  #main-content h2:before,
-  #main-content h3:before,
-  #main-content h4:before,
-  #main-content h5:before,
-  #main-content h6:before {
-    padding-right: 0;
-    margin-left: 0;
-    content: none;
-  }
-}
-
-/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) { }
-
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) { }
