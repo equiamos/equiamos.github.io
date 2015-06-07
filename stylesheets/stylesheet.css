@@ -545,6 +545,7 @@ header a.button {
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
 /*! Makes github link appear as button with octocat image */
+
 aside a.button {
   display: block;
   width: 138px;
@@ -553,6 +554,7 @@ aside a.button {
   font-size: 21px;
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
 }
+
 
 /*!
 THINK BELOW ONLY NEEDED FOR DISPLAYING CODE SNIPPETS CORRECTLY:
@@ -781,6 +783,10 @@ li {
 	margin-top: 30px;
 	text-align: center;
   font-size: 12px;
+}
+
+#copyright p {
+  padding-top: 10px;
 }
 
 /*footer {
