@@ -502,7 +502,8 @@ header h2 {
   max-width: 100%;
 }
 
-aside#sidebar {
+/*! REMOVING SIDE BAR */
+/*aside#sidebar {
   float: right;
   width: 200px;
   min-height: 504px;
@@ -516,7 +517,8 @@ aside#sidebar {
 aside#sidebar p.repo-owner,
 aside#sidebar p.repo-owner a {
   font-weight: bold;
-}
+}*/
+/*! END REMOVING SIDE BAR */
 
 #downloads {
   margin-bottom: 40px;
@@ -895,7 +897,9 @@ footer a:hover {
     font-size: 13px;
   }
   #main-content,
-  aside#sidebar {
+
+  /*! REMOVING SIDEBAR */
+  /*aside#sidebar {
     float: none;
     width: 100% ! important;
   }
@@ -908,7 +912,10 @@ footer a:hover {
   }
   aside#sidebar a.button {
     display: none;
-  }
+  }*/
+  /*! END REMOVING SIDEBAR */
+
+
   #main-content h1:before,
   #main-content h2:before,
   #main-content h3:before,
