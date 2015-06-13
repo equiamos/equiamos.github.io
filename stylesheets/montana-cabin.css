@@ -111,7 +111,14 @@ a {
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-
+.anchor {
+bottom: centered;
+position: centered;
+}
+.content {
+  position: centered;
+  bottom: centered;
+}
 a:hover {
     color: #EDC961;
     text-decoration: underline;
