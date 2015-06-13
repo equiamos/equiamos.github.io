@@ -35,6 +35,7 @@ body {
     position: absolute;
     top:390px;
     /*! Moves text down from center */
+    /*! Had at 390 b4 changed font sizes */
     bottom: 0;
     left: 0;
     right: 0;
@@ -52,20 +53,26 @@ body {
 
 .container .name {
     font-size: 50px;
+    /*! was 50 */
     letter-spacing: 10px;
     text-align: center;
+
 }
 
 .container .title {
     font-size: 24px;
+    /*! was 24 */
     letter-spacing: 10px;
+    /*! was 10 */
     text-align: center;
 }
 
 .text {
     font-size: 17px;
+    /*! was 17 */
     text-align: center;
     width: 100%;
+    /*! was 100% */
 }
 
 .links {
@@ -74,6 +81,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+
+
 }
 
 .links img {
