@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background: #000 url('../img/cabin-background.jpg') no-repeat center center fixed;
+    background: #000 url('../../img/cabin-background.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -74,6 +74,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+    /*! Added margin-top to move links & text down */
+    margin-top: 175px;
 }
 
 .links img {
