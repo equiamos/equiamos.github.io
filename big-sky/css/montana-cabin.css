@@ -63,6 +63,12 @@ body {
 }
 
 .text {
+  background: #fff no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
     font-size: 17px;
     text-align: center;
     width: 100%;
