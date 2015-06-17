@@ -63,11 +63,12 @@ body {
 }
 
 .text {
-  background: #fff no-repeat center center fixed;
+  background: #aaa no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  /*! Want to make this stick to bottom of page */
 
     font-size: 17px;
     text-align: center;
